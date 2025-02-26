@@ -4,7 +4,8 @@
 
 [CS50's Introduction to Programming with Python](https://cs50.harvard.edu/python/2022/)
 
-| #                                                  | Topic                         | Problems                                                                                                                                         |
-| -------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [1](https://cs50.harvard.edu/python/2022/weeks/0/) | [Function, Variables](week_0) | [indoor](week_0/indoor), [playback](week_0/playback.py), [faces](week_0/faces.py), [einstein](week_0/einstein.py), [tip](week_0/tip.py)          |
-| [2](https://cs50.harvard.edu/python/2022/weeks/1/) | [Conditionals](week_1)        | [deep](week_1/deep.py), [bank](week_1/bank.py), [extensions](week_1/extensions.py), [interpreter](week_1/interpreter.py), [meal](week_1/meal.py) |
+| #                                                  | Topic                         | Problems                                                                                                                                                                               |
+| -------------------------------------------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [1](https://cs50.harvard.edu/python/2022/weeks/0/) | [Function, Variables](week_0) | [indoor](week_0/indoor/indoor.py), [playback](week_0/playback/playback.py), [faces](week_0/faces/faces.py), [einstein](week_0/einstein/einstein.py), [tip](week_0/tip/tip.py)          |
+| [2](https://cs50.harvard.edu/python/2022/weeks/1/) | [Conditionals](week_1)        | [deep](week_1/deep/deep.py), [bank](week_1/bank/bank.py), [extensions](week_1/extensions/extensions.py), [interpreter](week_1/interpreter/interpreter.py), [meal](week_1/meal/meal.py) |
+| [3](https://cs50.harvard.edu/python/2022/weeks/2/) | [Loops](week_2)               | [camel](week_2/camel/camel.py), [coke](week_2/coke/coke.py), [twttr](week_2/twttr/twttr.py), [plates](week_2/plates/plates.py), [nutrition](week_2/nutrition/nutrition.py)             |
