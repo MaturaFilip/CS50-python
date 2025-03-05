@@ -3,10 +3,7 @@ import sys
 from PIL import Image
 from PIL import ImageOps
 
-# sys.argv 2 = name of existing csv, name of new csv with headers (first, last, house)
-
 def main():
-
     if check_input():
         shirt = Image.open("shirt.png")
         image = Image.open(sys.argv[1])
