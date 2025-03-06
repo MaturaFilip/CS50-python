@@ -8,10 +8,11 @@ def main():
 
 def parse(s):
     x = re.findall((r"\"http[s]?:\/{2}w{0,3}\.?youtube\.com\/embed\/[A-Za-z0-9]+\""), s)
-    if len(x) == 0:
+    y = re.findall(r"\/[A-Za-z0-9]+\"><\/iframe>", s)
+    if len(x) == 0 or len(y) == 0:
         return None
     else:
-        
+
         x = "".join(x).split("/")
         if x[0][1:] == "http:":
             output = f"https://youtu.be/{x[-1]}"
