@@ -40,10 +40,9 @@ def convert(s):
             if time[2] != 12:
                 time[2] += 12
 
-        if time[0] == (time[2]-8):
-            return f"{time[0]:02}:{time[1]:02} to {time[2]:02}:{time[3]:02}"
-        else:
-            raise ValueError
+
+        return f"{time[0]:02}:{time[1]:02} to {time[2]:02}:{time[3]:02}"
+    raise ValueError
 
 if __name__ == "__main__":
     main()
