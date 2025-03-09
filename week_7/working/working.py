@@ -40,7 +40,6 @@ def convert(s):
             if time[2] != 12:
                 time[2] += 12
 
-
         return f"{time[0]:02}:{time[1]:02} to {time[2]:02}:{time[3]:02}"
     raise ValueError
 
